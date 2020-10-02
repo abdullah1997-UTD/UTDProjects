@@ -5,17 +5,17 @@
  * highest and lowest number of factors they would like to be involved in the math problems. Following that, 
  * they will be asked to input the number of problems they would like to solve.
  * It will then directly process the information and output a question to the user. 
- * If the user is correct, it will print out ìCorrectî, else it will say ìIncorrectî. 
+ * If the user is correct, it will print out ‚ÄúCorrect‚Äù, else it will say ‚ÄúIncorrect‚Äù. 
  * After going through the number of problems (iterations) that the user wanted, it will go the Session Summary 
  * where it will state the number of problems done, the number of correct answer, a score, the amount of time taken to complete 
- * the game along with the Userís name, the type of operation they did, and the date and time.
+ * the game along with the User‚Äôs name, the type of operation they did, and the date and time.
  */
 import java.util.*;  // Importing Keyboard input.
 import java.util.Random; // Importing Random generator
 import java.util.concurrent.TimeUnit; // Importing TimeUnit conversion system.
 
 
-public class Project1_FlashCardGame {
+public class Project1_FlashCardGame_Abdullah_Al {
 	
 	public static void main(String[] args) {
 		// Design Outline
@@ -116,7 +116,7 @@ public class Project1_FlashCardGame {
 	}
 	
 				// *****  Methods are below  ******
-				// getName ñ method to get the name of the user
+				// getName ‚Äì method to get the name of the user
 			public static String getName() { // getName method to ask user for their name
 				Scanner input = new Scanner(System.in); // Initializing input for getName method
 				System.out.print("Enter your name: "); // Printing out on the screen asking user to enter their name
@@ -125,7 +125,7 @@ public class Project1_FlashCardGame {
 				}
 	
 			
-				// getOperation ñ method to get the operation for the session
+				// getOperation ‚Äì method to get the operation for the session
 			public static String getOperation() { // getOperation method to ask user for the type of math problems they want to do.
 				Scanner input = new Scanner(System.in); // Initializing input for getOperation method
 				System.out.print("Enter 'A' for Addition, 'S' for Subtraction, 'M' for Multiplication, 'D' for Division: "); // Printing out operation options to user
